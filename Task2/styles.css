@@ -1,0 +1,89 @@
+body{
+
+    background-color: #eef3f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+}
+
+#navbar {
+    margin: 30px auto;
+    a {
+        border: 1px solid #2d2d2d;
+        background-color: #2d2d2d;
+        margin: 60px 85px;    
+        padding: 18px 70px;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 15px;
+        Font-family: verdana, sans-serif;
+    }
+    
+    a:hover{
+    background-color: #4d4d4d;
+    color: #fdfafa;
+    font-size: 20px;
+
+} 
+}
+
+#sidebar {
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #d7e3dc;
+    border-radius: 8px;
+    padding: 25px 40px;
+    max-width: 400px;
+    font-size: 20px;
+    margin: 30px 10px;
+}
+
+#content{
+
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #d7e3dc;
+    border-radius: 8px;
+    padding: 8px 40px;
+    max-width: 1000px;
+    font-size: 15px;
+    margin: 30px 10px;
+}
+
+
+.header{
+
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+    border: 3px solid #2d2d2d   ;
+    padding: 1px;
+    background-color: #2d2d2d;
+}
+
+
+.Task2{
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    border: 2px solid #2d2d2d;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #f3f0f4;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: #9c9a9a92;
+    padding: 10px;
+    font-family: verdana, sans-serif;
+    
+
+}
+

@@ -19,18 +19,15 @@ body{
     margin: 100px auto;
 }
 
-#h1{
-    
+.header{
+
     text-align: center;
-
     font-family: verdana, sans-serif;
-
     color: white;
-    font-size: 25px;
+    font-size: 13px;
     border: 3px solid #2d2d2d   ;
-    padding: 12px;
+    padding: 1px;
     background-color: #2d2d2d;
-    border-radius: 10px;
 }
 
 .profile-image{
@@ -80,6 +77,7 @@ a:hover {
       font-size: 23 px;
     }    
 
+
 #navbar {
     margin: 30px auto;
     a {
@@ -93,6 +91,13 @@ a:hover {
         font-size: 15px;
         Font-family: verdana, sans-serif;
     }
+    
+    a:hover{
+    background-color: #4d4d4d;
+    color: #fdfafa;
+    font-size: 20px;
+
+} 
 }
 
 
