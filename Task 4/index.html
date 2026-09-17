@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB assignment 1</title>
+    <link rel=stylesheet href="styles.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico"> 
+</head>
+<body>
+
+
+    
+    <header class="header">
+        <h1>Web Assignment 1</h1>
+    </header>
+
+    <nav id="navbar">
+        <b>
+            <a href="../index.html"> Task 1 </a>
+            <a href="index.html"> Task 2 </a>
+            <a href="../Task3/exercise1/index.html"> Task 3 </a>
+            <a href="index.html"> Task 4 </a>
+        </b>
+    </nav>
+
+    <h1 class="Task4"> Task 4 </h1>
+
+    <div class = "container">
+        
+        <h2 style="font-family: verdana, sans-serif;"> Student Grades </h2>
+
+        <table>
+            <tr id="trka">
+                <th> Student</th>  
+                <th> Subject</th>
+                <th> Grade</th>   
+            </tr>    
+            <tr >
+                <td rowspan="2"> Mansur </td>
+                <td> WEB </td>
+                <td> 100% </td>    
+            </tr>
+            <tr>
+                <td> OOP </td>
+                <td> 75% </td>    
+            </tr>
+            <tr>
+                <td> Bob </td>
+                <td> WEB </td>
+                <td> 70% </td>
+            </tr>
+            <tr>
+                <td> Bro </td>
+                <td> OOP </td>
+                <td> 50% </td>    
+            </tr>
+
+            <tr class="badGrade">
+                <td> Poor guy </td>
+                <td> WEB </td>
+                <td> 24% </td>
+            </tr>
+
+        </table>
+    </div>
+
+        <div class = "container">
+
+        <form id="feedback">
+            <label for="name" > <b>Your Name:</b> </label> <br>
+            <input type="text" id="name" name="name" required> <br>
+            <label for="mail"> <b>Your Email:</b> </label> <br>
+            <input type="email" id="mail" name="mail" required> <br>
+            <label for = "role"> <b>Your Role:</b> </label> <br>
+            <select id="role" name=" role">
+                <option value="student"> Student </option>
+                <option value="teacher"> Teacher </option>
+                <option value="other"> Other </option>
+            </select> <br>
+            
+            <b>Does this assignment deserve 100%  ?</b> <br>
+            <input type="radio" id="yes" name="yes" value="yes"> 
+            <label for="yes"> Yes </label> <br>
+            <input type="radio" id="off course" name="yes" value="off course"> 
+            <label for="off course"> Off course </label>
+            <br >
+            <label for="comments" > <b>Comments:</b></label> <br>
+            <input type = "text" id="comments" name="comments" required> <br>
+            <input type="submit" value="Submit">
+
+
+
+
+        </form> 
+    </div>
+    
+
+    
+    
+
+
+</body>
+</html>

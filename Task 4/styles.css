@@ -1,0 +1,120 @@
+body{
+
+    background-color: #eef3f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+}
+
+#navbar {
+    margin: 30px auto;
+    a {
+        border: 1px solid #2d2d2d;
+        background-color: #2d2d2d;
+        margin: 60px 85px;    
+        padding: 18px 70px;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 15px;
+        Font-family: verdana, sans-serif;
+    }
+    
+    a:hover{
+    background-color: #4d4d4d;
+    color: #fdfafa;
+    font-size: 20px;
+
+} 
+}
+
+
+.header{
+
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color: white;
+    font-size: 13px;
+    border: 3px solid #2d2d2d   ;
+    padding: 1px;
+    background-color: #2d2d2d;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.Task4{
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    border: 2px solid #2d2d2d;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #f3f0f4;
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0 ;
+    width: 100%;
+    max-width: 700px;
+    margin: 5px auto;
+}
+
+td, th {
+  border: 1px solid #080808;
+  text-align: left;
+  padding: 15px;    
+}
+
+
+
+#trka {
+    background-color: #3a98c4;
+}
+
+tr:nth-child(odd) {
+  background-color: #c4c2c2;
+}
+
+.badGrade{
+  background-color: #fd0404;
+}
+
+#feedback{
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #34229a32;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #34229a32;
+}
+
+#feedback select, input, textarea{
+    width: 50%;
+    padding: 5px;
+}
+#feedback input[type="radio"]{
+        width: auto;
+}
+
+#feedback input[type="submit"]{
+    background-color: #55bffd6b;
+    width: 40%;
+    border-radius: 10px;
+}
+
+#feedback input[type="submit"]:hover{
+    background-color: #2cfffb3b;
+    width: 40%;
+    border-radius: 10px;
+}
